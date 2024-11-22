@@ -1,0 +1,21 @@
+{
+    "name": "Recuperação",
+    "short_name": "rec",
+    "icons": [
+        {
+            "src": "images/image.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/image1.png",
+            "sizes": "512x512",
+            "type":"image/png"
+        }
+    ],
+    "lang": "pt-BR",
+    "start-url": "/index.html",
+    "display": "standalone",
+    "backrpung_color": "white",
+    "theme_color": "white"
+}

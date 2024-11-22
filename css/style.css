@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+html, .fullscreen {
+ display: flex;
+ align-items: center;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ background-color: yellow;
+}
+.h1{
+    align-items: center; 
+}
+
+.container {
+    width: 100%;
+	height: 50vh;
+	
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.title{
+    font-size: 3rem;
+}
+.pedido{
+    width: 100%;
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.area{
+	width: 100%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+.area-item{
+	width: 90%;
+	height: 40vh;
+	margin: 2vh;
+	background-color: orange;
+	color: #FFFF;
+	text-align: center;
+	border-radius: 2vh;
+	overflow: hidden;
+}
+.area-item img{
+	width: 100%;
+	height: 30vh;
+}
+.area-item h1{
+	text-align: center;
+}
